@@ -6,7 +6,7 @@ import re
 import os
 
 
-f = open("sm2.txt")
+f = open("jg.txt")
 line = f.readline()
 while line:
     #print line,
@@ -18,7 +18,7 @@ while line:
        sj = yms.split( )
        wc = sj[3] + ":3128"
        print("\033[7;32;41m%s\033[0m"%wc)
-       with open("wc1.txt", "a") as write:
+       with open("wc.txt", "a") as write:
            write.write(wc + "\n")
      
     
