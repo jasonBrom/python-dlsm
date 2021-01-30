@@ -11,7 +11,7 @@ line = f.readline()
 while line:
     #print line,
     yms=line
-    //print(line, end = '')
+    
     line = f.readline()
     if "open" in yms:
        yms = yms.replace("\n","")
