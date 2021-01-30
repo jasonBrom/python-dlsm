@@ -22,6 +22,6 @@ while line:
            write.write(wc + "\n")
      
     
-    time.sleep(0.00001)
+    time.sleep(0.00000001)
 
 f.close()
